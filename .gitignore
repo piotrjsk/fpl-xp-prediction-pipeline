@@ -1,0 +1,43 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python & Byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Editor & System settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Databases & Local Data Exports
+data/*.db
+data/*.sqlite3
+data/exports/*.csv
+
+# Backtest experiment outputs
+outputs/*.csv
+
+# Build & Package artifacts
+build/
+dist/
+*.egg-info/
