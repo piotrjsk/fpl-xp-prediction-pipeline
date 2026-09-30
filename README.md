@@ -33,7 +33,7 @@ This project focuses on building a robust, automated pipeline from data collecti
    * Reads from SQLite and calculates rolling metrics (3-GW and 5-GW windows) for minutes, xG, xA, and defensive contributions.
    * **Strict Data Leakage Protection:** All features are explicitly shifted by 1 Gameweek to ensure models only predict based on *past* information.
 
-3. **Hybrid Inference Engine (`predict_xp.py` & `models_2.py`)**
+3. **Hybrid Inference Engine (`predict_xp.py` & `models.py`)**
    * Implements a hybrid approach directly based on my backtest findings:
      * **Poisson Baseline:** Used very early in the season (< GW3) when historical data is scarce.
      * **XGBoost Regressor:** Takes over automatically (>= GW3) once sufficient rolling features are accumulated. Models are trained dynamically on the most recent SQLite data.
