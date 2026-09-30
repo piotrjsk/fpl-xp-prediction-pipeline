@@ -9,7 +9,7 @@
 
 The **FPL Live Predictive Engine** is a production-ready Data Science pipeline designed to forecast player performance (Expected Points - xP) for upcoming Fantasy Premier League (FPL) gameweeks.
 
-While my [Backtesting Framework](link-to-your-backtest-repo) proved *which* models work best at different stages of the season, this repository is the **live application**. It autonomously ingests real-time API data, processes features, dynamically trains models, and provides actionable insights for FPL managers via an interactive CLI and exportable CSV reports.
+While my [Backtesting Framework](https://github.com/piotrjsk/fpl-backtest-engine) proved *which* models work best at different stages of the season, this repository is the **live application**. It autonomously ingests real-time API data, processes features, dynamically trains models, and provides actionable insights for FPL managers via an interactive CLI and exportable CSV reports.
 
 ## Domain Context: How FPL Works
 If you are unfamiliar with Fantasy Premier League, it is a game where managers build virtual teams of real-life Premier League footballers. 
