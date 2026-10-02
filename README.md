@@ -1,9 +1,9 @@
 # FPL Live Predictive Engine: End-to-End ML Pipeline
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458.svg)](https://pandas.pydata.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-green.svg)](https://xgboost.readthedocs.io/)
-[![SQLite](https://img.shields.io/badge/SQLite-Database-003B57.svg)](https://www.sqlite.org/)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458.svg)
+![XGBoost](https://img.shields.io/badge/XGBoost-Gradient_Boosting-green.svg)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57.svg)
 
 ## Project Overview
 
@@ -65,19 +65,24 @@ python main.py 6 10 -e xgboost
 
 ## Repository Structure
 ```text
-├── data/
-│   ├── fpl.db                      # SQLite Relational Database (Generated)
-│   └── exports/                    # Exported CSV predictions
-├── src/
-│   ├── build_features.py           # Rolling metrics & SQLite feature generation
-│   ├── export_data.py              # Formatting and CSV export logic
-│   ├── ingest_fpl_data.py          # API wrapper & data extraction
-│   ├── models.py                 # XGBoost and Poisson statistical engines
-│   └── predict_xp.py               # Inference orchestration & CLI logic
+.
 ├── main.py                         # Application entry point
 ├── requirements.txt
 ├── .env.example                    # Environment variables (DB paths, API URLs)
-└── README.md
+├── .gitignore                      # Git exclusion rules
+├── README.md                       # Project documentation
+│
+├── data/
+│   ├── fpl.db                      # SQLite Relational Database (Generated)
+│   └── exports/                    # Exported CSV predictions
+│
+└── src/
+    ├── build_features.py           # Rolling metrics & SQLite feature generation
+    ├── export_data.py              # Formatting and CSV export logic
+    ├── ingest_fpl_data.py          # API wrapper & data extraction
+    ├── models.py                   # XGBoost and Poisson statistical engines
+    └── predict_xp.py               # Inference orchestration & CLI logic
+
 ```
 
 ## Key Technical Skills Demonstrated
