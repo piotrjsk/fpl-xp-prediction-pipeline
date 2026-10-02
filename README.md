@@ -87,7 +87,7 @@ python main.py 6 10 -e xgboost
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/fpl-live-predictor.git
+git clone https://github.com/piotrjsk/fpl-live-predictor.git
 cd fpl-live-predictor
 pip install -r requirements.txt
 
@@ -96,4 +96,4 @@ python main.py 6
 ```
 
 ---
-*Developed by Piotr Jasiak | [LinkedIn Profile](your-link) | See the [Backtest Experiment Here](https://github.com/piotrjsk/fpl-backtest-engine)*
+*Developed by Piotr Jasiak | [LinkedIn Profile](https://www.linkedin.com/in/piotrjasiak) | See the [Backtest Experiment Here](https://github.com/piotrjsk/fpl-backtest-engine)*
