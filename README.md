@@ -67,7 +67,7 @@ python main.py 6 10 -e xgboost
 ```text
 .
 ├── main.py                         # Application entry point
-├── requirements.txt
+├── requirements.txt                # Dependency requirements
 ├── .env.example                    # Environment variables (DB paths, API URLs)
 ├── .gitignore                      # Git exclusion rules
 ├── README.md                       # Project documentation
@@ -90,13 +90,15 @@ python main.py 6 10 -e xgboost
 * **Data Science / ML:** XGBoost, Poisson distributions, dynamic model retraining, feature engineering, handling data leakage.
 * **Python Programming:** Modular design, command-line interfaces, custom logging, and robust error handling.
 
-## Installation
+## How to Run
 ```bash
 git clone https://github.com/piotrjsk/fpl-xp-prediction-pipeline.git
 cd fpl-xp-prediction-pipeline
+
+# Install dependencies
 pip install -r requirements.txt
 
-# Run your first prediction!
+# Run your first prediction
 python main.py 6
 ```
 
