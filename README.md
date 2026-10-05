@@ -92,6 +92,7 @@ python main.py 6 10 -e xgboost
 
 ## How to Run
 ```bash
+# Clone the repository
 git clone https://github.com/piotrjsk/fpl-xp-prediction-pipeline.git
 cd fpl-xp-prediction-pipeline
 
